@@ -19,15 +19,6 @@
   padding-left: 30px;
 }
 
-#logo-image {
-  width: 200px;
-  --webkit-transition: 5s;
-}
-
-#header.fixed #logo-image {
-  width:300px;
-  vertical-align: center;
-}
 
 
 /* Typography */
@@ -174,7 +165,17 @@ ul li {
 #header .logo a:hover {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
+#logo-image {
+  width: 200px;
+}
+
+#header.fixed #logo-image {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  width: 15em;
 }
 #header.fixed {
   background-color: #010101;
@@ -203,6 +204,7 @@ ul li {
   float: right;
 }
 .navigation li {
+  vertical-align: bottom;
   display: inline-block;
 }
 .navigation a {
@@ -491,7 +493,7 @@ color: #fff;
   height: 100%;
 }
 .work .overlay {
-  background: rgba(194, 6, 14, 0.61);
+  background: rgba(194, 6, 14, 0.8);
   height: 100%;
   left: 0;
   opacity: 0;
@@ -557,29 +559,29 @@ color: #fff;
   transform: translate3d(0, 0, 0);
 }
 /* ------------------------------------------------------------------------------
-   package
+package
 -------------------------------------------------------------------------------*/
 .packageList {
   padding: 100px 0;
 }
 h5 {
-    font-size: 1.286em;
-    font-weight: 500;
-    margin: 0.3em 0;
-    text-transform: capitalize;
-    /* text-align: left; */
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 18px;
+  font-size: 1.286em;
+  font-weight: 500;
+  margin: 0.3em 0;
+  text-transform: capitalize;
+  /* text-align: left; */
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 18px;
 }
 ul.list-default {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 ul.list-default li {
-    padding: 0.5em 0 0.5em 2em;
-    position: relative;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5em 0 0.5em 2em;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .package {
   /* border: 1px solid rgba(0, 0, 0, 0.1) !important; */
@@ -941,16 +943,3 @@ ul.list-default li {
   font-size: 11px;
   margin: 0 2px;
 }
-@media only screen and (max-width: 1020px) {
-    #header .logo a {
-    padding-top: 29%;
-    display: inherit;
-    color: #fff;
-}
-#header.fixed .header-content .logo a {
-    padding-top: 12%;
-    color: #fff;
-    text-align: center;
-}
-}
-
