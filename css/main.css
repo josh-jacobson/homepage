@@ -20,6 +20,17 @@
 }
 
 
+.social-follow-icons {
+  list-style:none;
+  font-size: 28px;
+  display: inline;
+}
+
+.social-follow-icons li {
+  display: inline;
+}
+
+
 
 /* Typography */
 
@@ -84,7 +95,7 @@ h5 {
   Global Styles
 -------------------------------------------------------------------------------*/
 a {
-  color: #e84545;
+  color: #e7185c;
 }
 a:hover, a:focus {
   text-decoration: none;
