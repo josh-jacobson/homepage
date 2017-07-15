@@ -14,9 +14,25 @@
     height: 100%;
 }
 
+
+.spotify-follow-widget {
+  padding-left: 30px;
+}
+
+#logo-image {
+  width: 200px;
+  --webkit-transition: 5s;
+}
+
+#header.fixed #logo-image {
+  width:300px;
+  vertical-align: center;
+}
+
+
 /* Typography */
 
-@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700); 
+@import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 p {
   font-size: 14px;
   line-height: 22.4px;
@@ -136,12 +152,6 @@ ul li {
 #header .logo {
   width: 100px;
   float: left;
-  font-size:24px;
-  font-weight:700;
-  color: #000;
-  text-decoration:none;
-  letter-spacing:7px;
-  /* background: #cd003a; */
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -149,29 +159,33 @@ ul li {
   padding: 0 15px;
   vertical-align: bottom;
 }
+
+#header.fixed .logo a{
+  padding-left:40px;
+  padding-top: 48%;
+}
+
 #header .logo a{
   padding-top: 32%;
   display: inherit;
   color: #ffffff;
 }
-#header.fixed .header-content .logo a{
-  padding-top: 11%;
-  color: #ffffff;
-  text-align: center;
-}
-#header .logo a:hover{
-  
+
+#header .logo a:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+
 }
 #header.fixed {
   background-color: #010101;
-  border-bottom: 1px solid #232323 !important;
+  background-color: rgba(0,0,0,0.9);
 }
 #header.fixed a {
   color: #c3c3c3;
 }
 #header.fixed .header-content {
   border-bottom: 0;
-  padding: 25px 0;
+  padding: 15px 0;
 }
 #header.fixed .nav-toggle {
   top: 18px;
@@ -399,18 +413,18 @@ ul li {
 /* -----------------------------------------------------------------------------
 Common Styles
 ------------------------------------------------------------------------------- */
-.section-header{  
-text-align: center; 
+.section-header{
+text-align: center;
 padding-bottom: 30px;
 }
 .section-header h2{
-  
+
 color: #fff;
-  
+
 font-weight: bold;
 }
 .section-header p{
-  
+
 }
 
 
@@ -427,11 +441,11 @@ font-weight: bold;
   color: #fff;
 }
 .services .section-header h2{
-color: #fff;  
+color: #fff;
 font-weight: bold;
 }
 .services .section-header p{
-color: #fff;  
+color: #fff;
 }
 .services-content {
   padding: 30px 30px 20px;
@@ -590,7 +604,7 @@ ul.list-default li {
   border: none !important;
   padding: 4px 0;
   color: #a5a5a5;
-} 
+}
 .package ul.list-default li:before {
   top: 0.3em !important;
 }

@@ -5,8 +5,10 @@ $(document).ready(function() {
 
     if (scroll >= 150) {
       $('#header').addClass('fixed');
+      document.getElementById("logo-image").src="images/logo_type.png";
     } else {
       $('#header').removeClass('fixed');
+      document.getElementById("logo-image").src="images/logo.png";
     }
   });
 
