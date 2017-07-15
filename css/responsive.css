@@ -31,12 +31,13 @@
     transform: translateY(-45%);
   }
   .navigation li {
+    text-align: center;
     display: block;
     margin-bottom: 1px;
   }
 
   .spotify-follow-widget {
-    padding-left: 40%;
+    padding-left: 10%;
   }
   .navigation a {
     display: block;
