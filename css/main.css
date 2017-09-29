@@ -204,7 +204,7 @@ ul li {
   color: #000;
 }
 .navigation.open {
-  opacity: 0.9;
+  opacity: 0.92;
   visibility: visible;
   -moz-transition: opacity 0.5s;
   -o-transition: opacity 0.5s;
