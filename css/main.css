@@ -660,6 +660,10 @@ ul.list-default li {
   background: #010101;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
 .person {
   max-width: 270px;
   text-align: center;
