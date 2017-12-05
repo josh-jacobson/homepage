@@ -84,7 +84,7 @@ h5 {
   padding: 15px 40px;
   background: #000000;
 }
-#map-overlay {
+#map-ovvibaerlay {
     height:400px;
     margin-top:-405px;
     background-color: #010101;
@@ -379,6 +379,10 @@ ul li {
   background-size: cover;
   min-height: 750px;
 }
+
+.tour-banner {
+  background-image: url(../images/komorebi_tour.jpg);
+}
 .banner-text {
   margin-top: 38%;
   color: #fff;
@@ -648,6 +652,14 @@ ul.list-default li {
 /* ------------------------------------------------------------------------------
    Teams
 -------------------------------------------------------------------------------*/
+
+.tour {
+  font-family: "PaperCuteRegular", PaperCuteRegular, sans-serif;
+  font-weight: 400;
+  color: #6c7279;
+  background: #010101;
+}
+
 .person {
   max-width: 270px;
   text-align: center;
@@ -953,4 +965,8 @@ ul.list-default li {
   color: #e84545;
   font-size: 11px;
   margin: 0 2px;
+}
+
+.bd button {
+  background: blue !important;
 }
