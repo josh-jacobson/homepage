@@ -382,7 +382,17 @@ ul li {
 
 .tour-banner {
   background-image: url(../images/komorebi_tour.jpg);
+  background-position: center bottom;
 }
+
+.tour-logo-type {
+  width: 60%;
+}
+
+.tour-title {
+  color: #7BB4FC !important;
+}
+
 .banner-text {
   margin-top: 38%;
   color: #fff;
@@ -658,6 +668,31 @@ ul.list-default li {
   font-weight: 400;
   color: #6c7279;
   background: #010101;
+}
+
+.tour-container {
+  width: 80%;
+}
+
+.tour-text p {
+  color: white;
+  font-size: 16px;
+}
+
+.blue {
+  color: #7BB4FC;
+}
+
+.ticket-links a {
+  color: #7BB4FC;
+}
+
+.ticket-links a:hover {
+  opacity: 0.7;
+}
+
+.text-align-left {
+  text-align: left;
 }
 
 .text-align-right {
