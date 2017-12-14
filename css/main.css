@@ -383,6 +383,7 @@ ul li {
 .tour-banner {
   background-image: url(../images/komorebi_tour.jpg);
   background-position: center bottom;
+  min-height: 300px;
 }
 
 .tour-logo-type {
