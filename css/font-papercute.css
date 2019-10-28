@@ -1,0 +1,29 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3492902, 2017-12-05T00:33:06-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: PaperCuteRegular by S&C Type
+ * URL: https://www.myfonts.com/fonts/la-goupil/paper-cute/regular/
+ * Copyright: Copyright (c) 2012 by Fanny Coulez, Julien Saurin. All rights reserved.
+ * Licensed pageviews: 20,000
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3492902
+ *
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/354c26");
+
+
+@font-face {font-family: 'PaperCuteRegular';src: url('webfonts/papercute.eot');src: url('/fonts/papercute.eot?#iefix') format('embedded-opentype'),url('/fonts/papercute.woff2') format('woff2'),url('/fonts/papercute.woff') format('woff'),url('/fonts/354C26_0_0.ttf') format('truetype');}
+
+
